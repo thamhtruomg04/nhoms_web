@@ -1,8 +1,10 @@
 :root {
+    --primary-color: #cf2e2e;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
 }
+
 
 *{
     box-sizing: inherit;
@@ -16,18 +18,5 @@ html {
     box-sizing: border-box;
 }
 
-.gird {
-    
-    width: 1600px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
-.gird__full-width {
-    width: 100%;
-}
 
-.grid__row {
-    display: flex; 
-    flex-wrap: wrap;
-}
