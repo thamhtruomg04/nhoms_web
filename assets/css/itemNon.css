@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 77px;
+    background-color: #454545;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /* display: none; */
+    
+}
+
+.logo a img{
+    width: 80%;
+    cursor: pointer;
+    
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    position: relative;
+    display: flex;
+    
+}
+
+.header__list-item a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.header__list-item {
+    line-height: 77px;
+    padding: 0 20px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.header__item-list {
+    list-style: none;
+    position: absolute;
+    background-color: #333;
+    width: 350px;
+    display: none;
+    border-top: 2px solid #333;
+    z-index: 1;
+    animation: fadeIn ease-in 0.5s;
+    border-top: 2px solid red;
+}
+.header__item-item {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+
+}
+
+.header__list-item>a:hover {
+    color: red;
+    
+}
+
+.header__list-item:hover .header__item-list{
+    display: block;
+    
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.header__cart-notice {
+    position: absolute;
+    color: red;
+    font-size: 1.3rem;
+    
+    height: 20px;
+    width: 20px;
+    top: -10px;
+}
+
+.header__item-item:hover,
+.header__item-item>a:hover {
+    background-color: #7a7575;
+    color: #444;
+}
+
+.header__input-search {
+    width: 100%;
+    height: 80%;
+    font-size: 3rem;
+    position: relative;
+    display: none;
+}
+
+.logo-search {
+    color: #9a8f8f;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 88%;
+    visibility: hidden;
+    display: none;
+
+}
+
+.logo-search:hover {
+    color: #333;
+    display: none;
+}
+
+.register-login {
+    position: absolute;
+    top: 77px;
+    background-color: #8e8a8a;
+    display: none;
+}
+
+.login, .register {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.icon-user:hover .register-login {
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.non-left {
+    width: 10%;
+}
+
+.non-imgs-primary {
+    margin-top: 90px;
+    
+}
+
+.non-imgs-primary img {
+    margin-left: 20px;
+    height: 100px;
+    width: 60px;
+    display: block;
+}
+
+.non-between {
+    width: 45%;
+}
+
+
+.img-large {
+    margin-top: 90px;
+    
+}
+
+.img-large img  {
+    width: 580px;
+    height: 590px;
+}
+
+.non-right {
+    width: 45%;
+    display: flex;
+}
+
+
+.non-display {
+    margin-top: 90px;
+}
+
+.non-text {
+    font-size: 2rem;
+}
+
+.non-pricex {
+    font-size: 2.5rem;
+    color: #ee4266;
+}
+
+.none-date {
+    font-size: 2rem;
+}
