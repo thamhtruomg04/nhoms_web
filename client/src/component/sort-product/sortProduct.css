@@ -1,0 +1,36 @@
+.sort-container{
+    position: absolute;
+    border: 1px solid #636363;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container__list{
+    display: flex;
+    flex-direction: column;
+}
+.sort-header{
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+}
+.sort-container-item{
+    display: flex;
+    margin-top: 10px;
+}
+.sort-container-item-1{
+    flex:1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sort-option{
+    display: flex;
+    gap: 7px;
+}

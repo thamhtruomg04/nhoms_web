@@ -1,0 +1,188 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    height: 77px;
+    background-color: #454545;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+.logo a img {
+    width: 80%;
+    cursor: pointer;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    position: relative;
+    gap: 20px;
+}
+.header__list-item:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.header__list-item a {
+    padding: 25px 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    /* sua lai bien white */
+}
+
+.header__list-item {
+    /* line-height: 77px; */
+    /* padding: 0 20px; */
+    display: flex;
+    gap: 10px;
+    align-items: center ;
+    /* font-size: 1.3rem; */
+    font-weight: 300;
+}
+
+.header__item-list {
+    list-style: none;
+    position: absolute;
+    background-color: #333;
+    width: 350px;
+    display: none;
+    border-top: 2px solid #333;
+    z-index: 1;
+    top: 67px;
+    animation: fadeIn ease-in 0.5s;
+    border-top: 2px solid red;
+}
+.header__item-item a{
+    padding: 0;
+}
+
+.header__item-item {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.header__list-item>a:hover {
+    color: red;
+
+}
+
+.header__list-item:hover .header__item-list {
+    display: block;
+
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.header__item-item:hover,
+.header__item-item>a:hover {
+    background-color: #7a7575;
+    color: #444;
+}
+
+.header__input-search {
+    width: 100%;
+    height: 80%;
+    font-size: 3rem;
+    position: relative;
+    display: none;
+}
+
+.logo-search {
+    color: #9a8f8f;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 88%;
+    visibility: hidden;
+    display: none;
+
+}
+
+.logo-search:hover {
+    color: #333;
+    display: none;
+}
+
+.register-login {
+    position: absolute;
+    top: 77px;
+    background-color: #8e8a8a;
+    display: none;
+}
+
+.login,
+.register {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.icon-user:hover .register-login {
+    display: block;
+}
+
+.search-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.container__text {
+    text-align: center;
+    font-size: 3rem;
+    color: #857f7f;
+}
+
+.aspect-ratio-169 {
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+    transition: 0.3s;
+}
+
+.aspect-ratio-169 img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__cart-notice {
+    position: absolute;
+    color: red;
+    font-weight: 900;
+    font-size: 11px;
+    padding: 2px 4px;
+    border-radius: 999px;
+    background-color: white;
+    /* width: 20px; */
+    top: 10px;
+}
+/* search input*/
+.search-input{
+    margin-top: 100px;
+    padding: 0 10%;
+    background-color: white;
+}
+.search-input input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    font-size: 16px;
+}

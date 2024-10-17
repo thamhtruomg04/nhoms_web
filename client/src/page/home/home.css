@@ -1,0 +1,46 @@
+
+.dot__container {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .dot.active {
+    background-color: #333;
+  }
+  
+  
+  .slide__text {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    color: #857f7f;
+  }
+  
+  .slide__container img{
+    width: 100%;
+  }
+  
+  .container__item {
+    display: flex;
+  }
+  
+  .container-img {
+    width: 100%;
+  }
+  
+  .container__discount img {
+    width: 100%;
+  }
