@@ -1,0 +1,89 @@
+/* Định dạng chung cho cả hai component */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    background-color: #00000090;
+}
+
+.auth-box {
+    background-color: white;
+    /* Nền trong suốt nhẹ */
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.out-login{
+    position: absolute;
+    padding: 3px;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+}
+
+.auth-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* Font chữ sang trọng */
+}
+
+.auth-input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.auth-input:focus {
+    border-color: #ff6b6b;
+    /* Màu nổi bật khi focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+}
+
+.auth-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #ff4757;
+    /* Màu nổi bật khi hover */
+}
+
+.auth-switch {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.auth-switch span {
+    cursor: pointer;
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
