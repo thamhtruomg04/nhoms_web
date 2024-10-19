@@ -61,6 +61,7 @@
 }
 .header__item-item a{
     padding: 0;
+
 }
 
 .header__item-item {
@@ -168,6 +169,7 @@
     font-weight: 900;
     font-size: 11px;
     padding: 2px 4px;
+    right: -12px;
     border-radius: 999px;
     background-color: white;
     /* width: 20px; */

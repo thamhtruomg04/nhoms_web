@@ -45,11 +45,21 @@ const Header = () => {
                         </a>
                         <i className="icon-near fa-solid fa-chevron-down"></i>
                         <ul className="header__item-list">
-                            <li className="header__item-item">Non Branded (Tối giản, Tiết kiện)</li>
-                            <li className="header__item-item">Seventy Seven (Giá Tốt, Jean 277k)</li>
-                            <li className="header__item-item">No Style (Gu nào cũng có)</li>
-                            <li className="header__item-item">Premium (Dáng chuẩn, Vải xịn)</li>
-                            <li className="header__item-item">Cool Touch (Vải Mềm-Mịn-Mát)</li>
+                        <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/no-brand'}>
+                                    Non Branded (Tối giản, Tiết kiện)
+                                </Link>
+                            </li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/seventy-seven'}>
+                                    Seventy Seven (Giá Tốt, Jean 277k)
+                                </Link>
+                            </li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/no-style'}>
+                                    No Style (Gu nào cũng có)
+                                </Link>
+                            </li>
                         </ul>
 
                     </li>
@@ -59,11 +69,21 @@ const Header = () => {
                         </a>
                         <i className="icon-near fa-solid fa-chevron-down"></i>
                         <ul className="header__item-list">
-                            <li className="header__item-item">Non Branded (Tối giản, Tiết kiện)</li>
-                            <li className="header__item-item">Seventy Seven (Giá Tốt, Jean 277k)</li>
-                            <li className="header__item-item">No Style (Gu nào cũng có)</li>
-                            <li className="header__item-item">Premium (Dáng chuẩn, Vải xịn)</li>
-                            <li className="header__item-item">Cool Touch (Vải Mềm-Mịn-Mát)</li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/no-brand'}>
+                                    Non Branded (Tối giản, Tiết kiện)
+                                </Link>
+                            </li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/seventy-seven'}>
+                                    Seventy Seven (Giá Tốt, Jean 277k)
+                                </Link>
+                            </li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/no-style'}>
+                                    No Style (Gu nào cũng có)
+                                </Link>
+                            </li>
                         </ul>
                     </li>
                     <li className="header__list-item">MỚI</li>
@@ -72,11 +92,21 @@ const Header = () => {
                         <i className="icon-near fa-solid fa-chevron-down"></i>
 
                         <ul className="header__item-list">
-                            <li className="header__item-item">Non Branded (Tối giản, Tiết kiện)</li>
-                            <li className="header__item-item">Seventy Seven (Giá Tốt, Jean 277k)</li>
-                            <li className="header__item-item">No Style (Gu nào cũng có)</li>
-                            <li className="header__item-item">Premium (Dáng chuẩn, Vải xịn)</li>
-                            <li className="header__item-item">Cool Touch (Vải Mềm-Mịn-Mát)</li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/no-brand'}>
+                                    Non Branded (Tối giản, Tiết kiện)
+                                </Link>
+                            </li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/seventy-seven'}>
+                                    Seventy Seven (Giá Tốt, Jean 277k)
+                                </Link>
+                            </li>
+                            <li className='header__item-item'>
+                                <Link to={'/bộ-sưu-tập/no-style'}>
+                                    No Style (Gu nào cũng có)
+                                </Link>
+                            </li>
                         </ul>
                     </li>
                 </ul>
