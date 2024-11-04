@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
-    <link rel="stylesheet" href="./assets/js/jscript.js">
+    <link rel="stylesheet" href="./assets/js/jscript.js">   
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 <body>
-    <div class="app">
+    
         <header class="header">
+            
             <div class="logo">
-                <a href="index.html"><img src="/assets/img/logoYaMe.png" alt="" class="header__nav-img"></a>
+                <a href="index.html"><img src="assets/img/logoYaMe.png" alt="" class="header__nav-img"></a>
             </div>
 
             <ul class="header__list">
@@ -58,7 +59,9 @@
                         <li class="header__item-item"><a href="">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
                     </ul>
                 </li>
-                <li class="header__list-item"><a href="news.html">MỚI</a></li>
+                <li class="header__list-item"><a href="news.html">
+                    MỚI
+                </a></li>
                 <li class="header__list-item"><a href="">
                     <i class="fa-solid fa-bars"></i>
                     <i class="icon-near fa-solid fa-chevron-down"></i>
@@ -76,15 +79,22 @@
 
             <!-- Header Search -->
             
-                <input type="text" placeholder="Nhập sản phẩm cần tìm kiếm..." class="header__input-search">
-                <i class="logo-search fa-solid fa-x"></i>
+                
+                <!-- <i class="logo logo-search fa-solid fa-x"></i> -->
 
             <!-- End search -->
             <ul class="header__list">
                 <li class="header__list-item"><a href="">
-                    <i class="header-icon fa-solid fa-magnifying-glass"></i>
+                    <i class="header-icon fa-solid fa-magnifying-glass">
+                        <input type="text" placeholder="Nhập sản phẩm cần tìm kiếm..." class="header__input-search">
+                    </i>
                 </a></li>
-                <li class="header__list-item"><a href="explore.html">EXPLORE</a></li>
+                <li class="header__list-item"><a href="explore.html">
+
+                    EXPLORE
+
+                </a></li>
+
                 <li class="header__list-item"><a href="">
                     <i class="icon-user header-icon fa-solid fa-user"></i>
                     <div class="register-login">
@@ -92,31 +102,91 @@
                         <div class="login">Đăng nhập</div>
                     </div>
                 </a></li>
-                <li class="header__list-item"><a href="">
+                <li class="header__list-item header__cart"><a href="">
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <span class="header__cart-notice">2</span>
+                    
+                    <div class="header__encompass">
+                        <p class="header__cart-notice">2</p>
+                    </div>
                 </a></li>
             </ul>
+        
         </header>
+        // container 
 
-        <div class="container__container">
+        <!-- /* section__one  */ -->
+        <!-- <div class="section section__one">
+            <div class="section__one--container">
+                <p class="section__one--text">Nam Thần: Mình thích lịch lãm, mà đồ trendy khó mặc quá!</p>
+                <div class="section__one--image">  
+                  <a href=""><img src="assets/img/im1.jpg" alt=""></a>
+                </div>
+            </div>    
+        </div>   -->
+        <!-- end section__one  -->
+
+        <!-- section__two -->
+        <!-- <div class="section section__two ">
+
+             <div class="dot__container">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div> 
+            
+            <div class="slide__container">
+                 <p class="slide__text">Giá luôn tốt</p> 
+                <a href=""><img src="assets/img/slide_seventy.png" alt=""></a>
+            </div>
+        </div> -->
+        
+        <!-- end section__two -->
+        
+        <!-- section__three -->
+        <!-- <div class="section section__three">
+            <div class="section__three__container">
+                <div class="section__three__item">
+                    <a href=""><img class="container-img" src="assets/img/item1.png" alt=""></a>
+                    <a href=""><img class="container-img" src="assets/img/item2.png" alt=""></a>
+                </div>
+        
+                <div class="section__three__item">
+                    <a href=""><img class="container-img" src="assets/img/item3.png" alt=""></a>
+                    <a href=""><img class="container-img" src="assets/img/item4.png" alt=""></a>
+                </div>
+        
+                <div class="section__three__item">
+                    <a href=""><img class="container-img" src="assets/img/item5.png" alt=""></a>
+                    <a href=""><img class="container-img" src="assets/img/item6.png" alt=""></a>
+                </div>
+            </div>
+        </div> -->
+        <!-- end section__three -->
+
+
+        <!-- <div class="section__three__discount">
+            <img src="assets/img/discount.png" alt="">
+        </div> -->
+        
+        <div class="container__capacity">
             <div class="container">
-                <p class="container__text">Giá Tốt</p>
+                <!-- <p class="container__text">Giá Tốt</p> -->
                 <div class="aspect-ratio-169">
                     <img src="assets/img/anhnenYaMe1.png" alt="">
                     <img src="assets/img/anhnenYaMe2.png" alt="">
                     <img src="assets/img/anhnenYaMe3.png" alt="">
                 </div>
-            </div>
-            <div class="dot__container">
-                <div class="dot active"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+            
+         
     
             <div class="slide__container">
+                <div class="dot__container">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
                 <p class="slide__text">Giá luôn tốt</p>
-                <a href=""><img src="assets/img/slide.png" alt=""></a>
+                <a href=""><img src="assets/img/slide_seventy.png" alt=""></a>
             </div>
     
             <div class="container__item">
@@ -138,8 +208,13 @@
                 <img src="assets/img/discount.png" alt="">
             </div>
         </div>
+        </div>
 
+
+
+        // end container
         <div class="footer">
+            <div class="container">
             <div class="footer-logo">
                 <img src="assets/img/logoYaMe.png" alt="">
                 <p class="footer-p1">Đặt hàng và thu tiền tận nơi toàn quốc</p>
@@ -183,12 +258,10 @@
                     <img src="assets/img/bocongthuong.png" alt="">
                 
                 </div>
-
-
-                
+            </div>
             </div>
         </div>
-    </div>
+    
 
     
     

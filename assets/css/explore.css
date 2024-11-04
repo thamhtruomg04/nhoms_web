@@ -17,9 +17,10 @@
     width: 100%;
 }
 
-.logo a img{
-    width: 80%;
-    
+
+
+.logo a .header__nav-img {
+   width: 100%;
 }
 
 .header__list {

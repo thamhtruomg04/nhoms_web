@@ -1,35 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
+    box-sizing: border-box;
+
 }
 
-body {
-    font-family: sans-serif;
-    color: #333;
-    width: 100%;
-=======
-    box-sizing: border-box;
-}
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
     height: 77px;
-    background-color: #454545;
+    background-color: #343A40;
     align-items: center;
     position: relative;
     position: fixed;
     z-index: 1;
     width: 100%;
-    
+   margin: 0px;
+   padding: 0px;
 }
-
 .logo a img{
-    width: 80%;
+    width: 55%;
     cursor: pointer;
-    
 }
 
 .header__list {
@@ -43,30 +36,35 @@ body {
 .header__list-item a{
     text-decoration: none;
     color: var(--white-color);
+    
 }
 
-.header__list-item {
+.header__list-item  {
     line-height: 77px;
     padding: 0 20px;
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 600;
+    
+   
+}
+.header__title {
+    color: rgb(196, 164, 164);
 }
 
 .header__item-list {
     list-style: none;
     position: absolute;
     background-color: #333;
-    width: 350px;
+    width: 300px;
     display: none;
-    border-top: 2px solid #333;
-    z-index: 1;
-    animation: fadeIn ease-in 0.5s;
+    border-top: 2px solid #333;  
+    animation: fadeIn ease-in 0.25s;
     border-top: 2px solid red;
 }
 .header__item-item {
     text-align: center;
-    border-bottom: 1px solid #fff;
-
+    border-bottom: 1px solid #ffffff48;
+    height: 55px;
 }
 
 .header__list-item>a:hover {
@@ -75,14 +73,12 @@ body {
 }
 
 .header__list-item:hover .header__item-list{
-    display: block;
-    
-    
+    display: block;   
 }
 
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 0.5;
     }
     to {
         opacity: 1;
@@ -97,11 +93,43 @@ body {
 
 .header__input-search {
     width: 100%;
-    height: 80%;
+    height: 100%;
     font-size: 3rem;
     position: relative;
+    border: none;
     display: none;
 }
+
+.header-icon::hover {
+    display: block;
+}
+
+.header .header__cart {
+
+    position: relative;
+}
+  
+.header .header__encompass {
+    position: absolute;
+    background-color:rgba(255, 0, 0, 0.571);
+    border: 1px solid rgba(255, 0, 0, 0.582);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    top: 18px;
+    right: 0px;
+}
+
+.header__cart-notice{
+    position: absolute;
+    font-size: 1rem;
+    top: -30px;
+    left:5px;
+    font-weight: 300;
+  
+}
+
+/* search */
 
 .logo-search {
     color: #9a8f8f;
@@ -115,8 +143,11 @@ body {
 
 .logo-search:hover {
     color: #333;
-    display: none;
+    display: block;
 }
+
+ /* end search */
+
 
 .register-login {
     position: absolute;
@@ -125,7 +156,7 @@ body {
     display: none;
 }
 
-.login, .register {
+.login .register {
     list-style: none;
     margin-top: 12px;
 }
@@ -134,6 +165,13 @@ body {
     display: block;
 }
 
+
+
+.container__capacity {
+    margin-top: 50px;
+    width: 100%;
+    
+}
 .container__text {
     text-align: center;
     font-size: 3rem;
@@ -145,7 +183,7 @@ body {
     position: relative;
     padding-top: 56.25%;
     transition: 0.3s;
-  }
+}
   
   .aspect-ratio-169 img {
     display: block;
@@ -159,22 +197,13 @@ body {
 
   
 
-.header__cart-notice {
-    position: absolute;
-    color: red;
-    font-size: 1.3rem;
-    
-    height: 20px;
-    width: 20px;
-    top: -10px;
-}
+
 
 .dot__container {
     position: absolute;
     height: 30px;
     width: 100%;
     display: flex;
-    align-items: center;
     text-align: center;
     justify-content: center;
 }
@@ -191,7 +220,12 @@ body {
     background-color: #333;
 }
 
-
+.slide__container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px 0px;
+}
 .slide__text {
     text-align: center;
     margin: 30px 0;
