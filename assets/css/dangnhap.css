@@ -1,17 +1,18 @@
-:root{
+/* :root{
     --bg1 :#9b59b6;
     --bg2 :#3498db;
     --text :#26ade4;
-}
+} */
 *{
     margin: 0;
     padding: 0;
     outline: none;
 }
 .container{
+    line-height: 76px;
     width: 100vw;
     height: 100vh;
-    background:linear-gradient(to bottom right,var(--bg1),var(--bg2));
+    background: #261616;
     justify-content: center;
     display: flex;
     align-items: center;

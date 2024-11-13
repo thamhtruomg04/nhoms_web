@@ -1,5 +1,5 @@
 :root {
-<<<<<<< HEAD
+
     --primary-color: #cf2e2e;
     --white-color: #fff;
     --black-color: #000;
@@ -21,8 +21,8 @@ html {
 
 
 
-=======
-    --white-color: #fff;
+
+    /* --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
     --primary-color: #ee4d2d;
@@ -33,7 +33,7 @@ html {
     --navbar-height: 34px;
     --header-height: 120px;
     --header-with-search-height: calc(var(--navbar-height) - var(var(--header-height)))
-}
+} */
 
 *{
     box-sizing: border-box;
@@ -161,4 +161,3 @@ html {
 
 /* Selection */
 
->>>>>>> fad29d5 (update)

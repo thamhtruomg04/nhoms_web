@@ -77,7 +77,25 @@ body {
 .header__list-item:hover .header__item-list{
     display: block;
     
-    
+
+}
+
+.btn-mode a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.change-mode {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-mode {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 @keyframes fadeIn {
@@ -290,7 +308,7 @@ body {
    float: right;
    position: absolute;
    right: 10px;
->>>>>>> fad29d5 (update)
+
 }
 
 
@@ -488,9 +506,6 @@ body {
     margin-top: 80px;
     display: flex;
     justify-content: flex-end;
->>>>>>> fad29d5 (update)
-    
-
 }
 
 .icon-text {
