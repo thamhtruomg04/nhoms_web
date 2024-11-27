@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/giohang.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cart-container">
+        <h2 class="cart-title">Giỏ Hàng Của Bạn</h2>
+        <div class="cart-items">
+            <!-- Sản phẩm 1 -->
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="assets/img/item1.jpg" alt="Sản phẩm 1">
+                </div>
+                <div class="item-details">
+                    <h3 class="item-name">Sofa Da Cao Cấp</h3>
+                    <p class="item-description">Sofa da cao cấp, chất liệu bền, đẹp mắt</p>
+                    <div class="item-quantity">
+                        <label for="quantity1">Số lượng:</label>
+                        <input type="number" id="quantity1" value="1" min="1">
+                    </div>
+                </div>
+                <div class="item-price">
+                    <p class="price">3.500.000 VND</p>
+                </div>
+                <button class="remove-btn">Xóa</button>
+            </div>
+            
+            <!-- Sản phẩm 2 -->
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="assets/img/item2.jpg" alt="Sản phẩm 2">
+                </div>
+                <div class="item-details">
+                    <h3 class="item-name">Bàn Ăn Gỗ Sồi</h3>
+                    <p class="item-description">Bàn ăn gỗ sồi tự nhiên, thiết kế đơn giản</p>
+                    <div class="item-quantity">
+                        <label for="quantity2">Số lượng:</label>
+                        <input type="number" id="quantity2" value="2" min="1">
+                    </div>
+                </div>
+                <div class="item-price">
+                    <p class="price">2.200.000 VND</p>
+                </div>
+                <button class="remove-btn">Xóa</button>
+            </div>
+        </div>
+    
+        <div class="cart-summary">
+            <div class="summary-item">
+                <span class="summary-title">Tổng sản phẩm:</span>
+                <span class="summary-value">2 sản phẩm</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-title">Tổng tiền:</span>
+                <span class="summary-value">5.700.000 VND</span>
+            </div>
+        </div>
+    
+        <div class="cart-actions">
+            <button class="continue-shopping-btn">Tiếp tục mua sắm</button>
+            <button class="checkout-btn">Thanh toán</button>
+        </div>
+    </div>
+</body>
+</html>
+
+

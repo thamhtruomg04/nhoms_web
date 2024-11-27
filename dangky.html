@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,30 +16,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="assets/css/dangky.css">
 </head>
+
 <body>
     <div class="app">
         <header class="header">
             <div class="logo">
                 <a href="index.html"><img src="/assets/img/logoYaMe.png" alt="" class="header__nav-img"></a>
             </div>
-    
+
             <ul class="header__list">
                 <li class="header__list-item"><a href="">
-                    BỘ SƯU TẬP
-                    <i class="icon-near fa-solid fa-chevron-down"></i>
+                        BỘ SƯU TẬP
+                        <i class="icon-near fa-solid fa-chevron-down"></i>
                     </a>
                     <ul class="header__item-list">
-                        <li class="header__item-item"><a href="Nonbranded.html">Non Branded (Tối giản, Tiết kiện)</a></li>
-                        <li class="header__item-item"><a href="Seventy.html">Seventy Seven (Giá: Tốt, Jean 277k)</a></li>
+                        <li class="header__item-item"><a href="Nonbranded.html">Non Branded (Tối giản, Tiết kiện)</a>
+                        </li>
+                        <li class="header__item-item"><a href="Seventy.html">Seventy Seven (Giá: Tốt, Jean 277k)</a>
+                        </li>
                         <li class="header__item-item"><a href="Nostyle.html">No Style (Gu nào cũng có)</a></li>
-                        
+
                     </ul>
                 </li>
-    
-    
-                
+
+
+
                 <li class="header__list-item"><a href="">
-                    ÁO THUN NAM NỮ
+                        ÁO THUN NAM NỮ
                         <i class="icon-near fa-solid fa-chevron-down"></i>
                     </a>
                     <ul class="header__item-list">
@@ -48,11 +52,11 @@
                         <li class="header__item-item"><a href="">Premium (Dáng chuẩn, Vải xịn)</a></li>
                         <li class="header__item-item"><a href="">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
                     </ul>
-    
+
                 </li>
                 <li class="header__list-item"><a href="">
-                    GIÁ LUÔN TỐT
-                    <i class="icon-near fa-solid fa-chevron-down"></i>
+                        GIÁ LUÔN TỐT
+                        <i class="icon-near fa-solid fa-chevron-down"></i>
                     </a>
                     <ul class="header__item-list">
                         <li class="header__item-item"><a href="">Non Branded (Tối giản, Tiết kiện)</a></li>
@@ -64,9 +68,9 @@
                 </li>
                 <li class="header__list-item"><a href="news.html">MỚI</a></li>
                 <li class="header__list-item"><a href="">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="icon-near fa-solid fa-chevron-down"></i>
-                    
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="icon-near fa-solid fa-chevron-down"></i>
+
                     </a>
                     <ul class="header__item-list">
                         <li class="header__item-item"><a href="">Non Branded (Tối giản, Tiết kiện)</a></li>
@@ -77,59 +81,46 @@
                     </ul>
                 </li>
             </ul>
-            
-    
+            <div class="change-mode">Sáng
+            </div>
+            <div class="mode">
+                <button class="btn-mode" onclick="doiCheDo()">Đổi chế độ</button>
+            </div>
             <!-- Header Search -->
-            
-                <input type="text" placeholder="Nhập sản phẩm cần tìm kiếm..." class="header__input-search">
-                <i class="logo-search fa-solid fa-x"></i>
+
+            <input type="text" placeholder="Nhập sản phẩm cần tìm kiếm..." class="header__input-search">
+            <i class="logo-search fa-solid fa-x"></i>
             <ul class="header__list">
                 <li class="header__list-item"><a href="">
-                    <i class="header-icon fa-solid fa-magnifying-glass"></i>
-                </a></li>
+                        <i class="header-icon fa-solid fa-magnifying-glass"></i>
+                    </a></li>
                 <li class="header__list-item"><a href="explore.html">EXPLORE</a></li>
                 <li class="header__list-item"><a href="">
-                    <i class="header-icon fa-solid fa-user"></i>
-                </a></li>
+                        <i class="header-icon fa-solid fa-user"></i>
+                    </a></li>
                 <li class="header__list-item"><a href="">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span class="header__cart-notice">2</span>
-                </a></li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="header__cart-notice">2</span>
+                    </a></li>
             </ul>
         </header>
         <div class="container">
-            <form action="" method="POST" class="form" id="form-1">
-                <h3 class="heading">Đăng ký</h3>
-                <p class="desc">Cùng nhau học tập miễn phí</p>
-    
-                <div class="spacer"></div>
-    
-                <div class="form-group">
-                    <label for="fullname" class="form-label">Tên đầy đủ</label> 
-                    <input class="invalid" type="text" placeholder="Thành Trương" name="fullname" id="fullname"> 
-                    <span class="form-message"></span> 
+            <form class="register">
+                <h1>Đăng ký</h1>
+                <div class="text">
+                    <label>Tên đăng nhập</label>
+                    <input required id="username" type="text" name="username">
                 </div>
-    
-                <div class="form-group">
-                    <label for="email" class="form-label">Email</label> 
-                    <input class="invalid" type="text" placeholder="...@gmail.com" name="email" id="email"> 
-                    <span class="form-message"></span> 
+                <div class="text">
+                    <label>Mật khẩu</label>
+                    <input required type="password" id="password" name="password">
                 </div>
-                
-                <div class="form-group">
-                    <label for="password" class="form-label">Mật khẩu</label> 
-                    <input class="invalid" type="password" placeholder="Mật khẩu" name="password" id="password"> 
-                    <span class="form-message"></span> 
+                <div class="text">
+                    <label>Xác nhận mật khẩu</label>
+                    <input required type="password" id="confirm_password" name="confirm_password">
                 </div>
-    
-                <div class="form-group">
-                    <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label> 
-                    <input class="invalid" type="password" placeholder="Mật khẩu" name="password_confirmation" id="password_confirmation"> 
-                    <span class="form-message"></span> 
-                </div>
-    
-                <button class="btn">Đăng ký</button>
-    
+                <button class="register-button">Đăng ký</button>
+                <span class="">Bạn đã có tài khoản? Đăng nhập <a href="dangnhap.html">Tại đây</a></span>
             </form>
         </div>
         <div class="footer">
@@ -139,15 +130,15 @@
                 <p class="footer-p2">Liện hệ: (028) 7307 1441</p>
                 <div class="footer-link">
                     <a href="">CHƯƠNG TRÌNH KHUYẾN MÃI</a>
-                   
+
                 </div>
                 <div class="footer-link">
-                    
+
                     <a href="">GIỚI THIỆU VỀ YAME</a>
-                   
+
                 </div>
                 <div class="footer-link">
-                    
+
                     <a href="">GIỚI THIỆU CÁC BỘ SƯU TẬP</a>
                 </div>
                 <div class="footer-icon">
@@ -169,27 +160,16 @@
                 <div class="footer-end">
                     <p class="footer-last">© 2024 - CÔNG TY TNHH YAME VN
 
-                        Giấy CNĐKDN: 0310874914 – Ngày cấp: 25/11/2011 - Cơ quan cấp: Phòng Đăng Ký Kinh Doanh – Sở Kế Hoạch và Đầu Tư TP.HCM
-                        
-                        Địa chỉ đăng ký kinh doanh: 766/3B-3C Sư Vạn Hạnh (Nối dài), Phường 12, Quận 10, TP.HCM - Điện thoại: (028) 3868 4857 - Mua hàng: (028) 7307 1441 - Email: cskh@yame.vn
+                        Giấy CNĐKDN: 0310874914 – Ngày cấp: 25/11/2011 - Cơ quan cấp: Phòng Đăng Ký Kinh Doanh – Sở Kế
+                        Hoạch và Đầu Tư TP.HCM
+
+                        Địa chỉ đăng ký kinh doanh: 766/3B-3C Sư Vạn Hạnh (Nối dài), Phường 12, Quận 10, TP.HCM - Điện
+                        thoại: (028) 3868 4857 - Mua hàng: (028) 7307 1441 - Email: cskh@yame.vn
                     </p>
                     <img src="assets/img/bocongthuong.png" alt="">
-                
+
                 </div>
-    </body>
-    <script src="/assets/js/dangky.js"></script>
-    <script>
-        Validator({
-            form: '#form-1',
-            errorSelector: '.form-message',
-            rules: [
-            Validator.isRequired('#fullname', 'Vui lòng nhập tên đầy đủ'),
-            Validator.isEmail('#email'),
-            Validator.minLength('#password', 6),
-            Validator.isConfirmed('#password_confirmation', function() {
-                return document.querySelector('#form-1 #password').value;
-            }, 'Mật khẩu nhập lại không chính xác')
-            ]
-        })
-    </script>
-    </html>
+</body>
+<script src="/assets/js/jscript.js"></script>
+
+</html>
