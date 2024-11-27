@@ -1,3 +1,4 @@
+// Đối tượng
 function Validator(options) {
     function validate(inputElement, rule) {
         
@@ -26,7 +27,7 @@ function Validator(options) {
                     validate(inputElement, rule)
                 }
 
-                
+                // Xu ly loi khi nguoi dung nhap vao input
                 inputElement.oninput = function() {
                     var errorElement = inputElement.parentElement.querySelector('.form-message');
                     errorElement.innerText = '';
@@ -37,11 +38,15 @@ function Validator(options) {
     }
 }
 
-Validator.isRequired = function(selector, message) {
+//Định nghĩa rules
+// Nguyen tac cua rule
+// Khi co loi tra ra message loi
+// 2 khi hop le khong tra ra gi
+Validator.isRequired = function(selector) {
     return {
         selector : selector,
         test: function (value) {
-            return value.trim() ? undefined : message || "Vui lòng nhập trường này!"
+            return value.trim() ? undefined : "Vui lòng nhập trường này!"
         }
     }
 }
