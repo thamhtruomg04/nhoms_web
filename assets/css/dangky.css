@@ -10,15 +10,15 @@
 }
 .container{
     width: 100vw;
+    margin-top: 20px;
     height: 100vh;
-    background:#261616;
+    background:#93d3ce;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 .register{
     width: 400px;
-    height: 620px;
     background: #fff;
     text-align: center;
     border-radius: 10px ;
@@ -32,6 +32,8 @@
     height: 40px;
     background:linear-gradient(to bottom right,var(--bg1),var(--bg2));
     border-radius: 5px;
+    font-size: 18px;
+    background-color: #333;
     color: #fff;
     margin-bottom: 40px;
     background-size: 200%;
@@ -47,10 +49,14 @@
 }
 .text input{
     height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 5px;
     width: 100%;
     border: 1px solid;
 }
 .text label{
+    font-size: 14px;
     position: absolute;
     bottom: 40px;
 }

@@ -90,7 +90,7 @@
                     <i class="header-icon fa-solid fa-magnifying-glass"></i>
                 </a></li>
                 <li class="header__list-item"><a href="explore.html">EXPLORE</a></li>
-                <li class="header__list-item"><a href="">
+                <li class="header__list-item"><a id="login_container" href="">
                     <i class="header-icon fa-solid fa-user"></i>
                 </a></li>
                 <li class="header__list-item"><a href="">
@@ -103,14 +103,14 @@
             <form class="login">
                 <h1>Đăng nhập</h1>
                 <div class="text">
-                    <label>Username</label>
-                    <input type="text" name="username" >
+                    <label>Tên đăng nhập</label>
+                    <input required id="username" type="text" name="username" >
                 </div>
                 <div class="text">
-                    <label>Password</label>
-                    <input type="text" name="password">
+                    <label>Mật khẩu</label>
+                    <input required type="password" id="password" name="password">
                 </div>
-                <button>Đăng nhập</button>
+                <button id="login_button">Đăng nhập</button>
                 <span>Bạn chưa có tài khoản? Đăng ký <a href="dangky.html">Tại đây</a></span>
             </form>
         </div>
