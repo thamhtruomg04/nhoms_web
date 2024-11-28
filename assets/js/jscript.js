@@ -127,4 +127,14 @@ if(user_id){
     })
 }
 
+// di chuyen den cart
+function goToCart() {
+    window.location.href = 'giohang.html';
+}
+
+// tu gio hang ve trang chu
+
+function goToHome() {
+    window.location.href = 'index.html'
+}
 

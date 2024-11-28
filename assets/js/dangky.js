@@ -46,7 +46,7 @@ Validator.isRequired = function(selector) {
     return {
         selector : selector,
         test: function (value) {
-            return value.trim() ? undefined : "Vui lòng nhập trường này!"
+            return value.trim() ? undefined : "Vui lòng nhập họ và tên!"
         }
     }
 }
