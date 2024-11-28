@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #dedede;
+}
+ul li{
+    list-style-type: none;
+}
+
+body{
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #dedede;
+    width: calc(100vw - 16px);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.header {
+    width: calc(100vw - 16px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    position: fixed;
+    z-index: 3; 
+    top: 0;
+    padding: 0px 5vw;
+    background-color: #454545;
+    color: #dadada;
+    font-size: 14px;
+} 
+
+/* logo */
+.logo{
+    width: 150px;
+}
+.logo a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.logo a img{
+    width: 100%;
+}
+
+/* header_nav_list */
+.header_nav_list{
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5vw;
+}
+.header_nav_item{
+    position: relative;
+    gap: 3px;
+    display: flex;
+    line-height: 50px;
+    align-items: center;
+}
+.header_nav_item_sub_container{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    padding: 10px 0;
+    border: 1px solid #c9c9c9;
+    background-color: #454545;
+    border-radius:3px;
+    flex-direction: column;
+    width: 300px;
+    opacity: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    transition: opacity 1s ease, box-shadow 0.3s ease;
+}
+.header_nav_item_sub_container a{
+    line-height: 50px;
+    padding:0 20px;
+}
+.header_nav_item a:hover {
+    text-decoration: none;
+    color: rgb(252, 62, 62)!important;
+    transition: color 0.3s ease;
+}
+
+.header_nav_item:hover .header_nav_item_sub_container{
+    display: block;
+    opacity: 1;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    visibility: visible;
+}
+.header__item-item{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_item i{
+    font-size: 11px;
+}
+
+.header_nav_list a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #dadada;
+}
+
+/* header_link_icon */
+.header_link_icon{
+    display: flex;
+    gap:10px;
+}
+.header_link_icon_list{
+    display: flex;
+    gap: 10px;
+}
+.header_link_icon_item{
+    display: flex;
+    align-items: center;
+}
+.login_icon_container_sub_box{
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .header_nav_list {
+        display: none!important;
+    }
+}
