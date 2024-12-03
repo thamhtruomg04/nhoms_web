@@ -13,15 +13,15 @@
     <!-- import header -->
     <?php include 'components/header.php'; ?>
     
-    <!-- home html -->
-    <div  class="container__Non">
-        <div id="NonBranded" class="container__header">
-            <a href=""><i class="fa-solid fa-house"></i></a>
-            <p>/ Bộ sưu tập Non Branded (Tối giản, Tiết kiệm)</p>
+    <!-- home html --> 
+    <div class="nobrand_container">
+        <div id="NonBranded" class="nobrand_header">
+            <a href="home"><i class="fa-solid fa-house"></i></a>
+            <p>/ Bộ sưu tập / Non Branded (Tối giản, Tiết kiệm)</p>
         </div>
-        <input type="text" class="container-input" placeholder="Lựa chọn sản phẩm">
-        <i class="container-icon fa-solid fa-caret-down"></i>
-        <div class="container__section">
+        <!-- <input type="text" class="container-input" placeholder="Lựa chọn sản phẩm">
+        <i class="container-icon fa-solid fa-caret-down"></i> -->
+        <!-- <div class="container__section">
             <div class="container__list">
                 <div class="container__hover">
                     <p>Chủng loại</p>
@@ -100,10 +100,10 @@
             
                 
             
-        </div>
+        </div> -->
 
-        <div class="container__text-numbr">
-            <p>Nổi bật / Bán chạy / <b>Mới</b></p>
+        <div class="nobrand_filter">
+            <p>Nổi bật | Bán chạy | Mới</p>
             <div class="dot__container">
                 <div class="dot active">1</div>
                 <div class="dot">2</div>
@@ -111,77 +111,18 @@
                 <div class="dot"><i class="fa-solid fa-angles-right"></i></div>
             </div>
         </div>
-        <div class="container__slide">
+
+        
+        <!-- <div class="container__slide">
             <img src="assets/img/BST_Non_Branded_(2).png" alt="">
-        </div>
-        <div class="container-list">
-            <div class="container-item">
-                <a href=""><img src="assets/img/Non_item1.png" alt=""></a>
-                <p>Túi MaKama (Nhập khẩu từ Mỹ)</p>
-                <p>Giá: 1.400.000đ</p> 
-            </div>
-            <div class="container-item">
-                <a href=""><img src="assets/img/Non_item2.png" alt=""></a>
-                <p>Quần vải lụa cao cấp (Nhập khẩu từ Mỹ)</p>
-                <p>Giá: 900.000đ</p> 
-            </div>
-            
-            <div class="container-item">
-                <a href=""><img src="assets/img/Non_item3.png" alt=""></a>
-                <p>Túi sách Ivy(Màu đen)</p>
-                <p>Giá: 400.000đ</p> 
-            </div>
-            <div class="container-item">
-                <a href=""><img src="assets/img/Non_item4.png" alt=""></a>
-                <p>Túi sách Ivy(Màu trắng)</p>
-                <p>Giá: 400.000đ</p> 
-            </div>
-        </div>
-        <div class="container-list">
-            <div class="container-item">
-                <img src="assets/img/Non_item5.png" alt="">
-                <p>Áo sơ mi KuBo(Trắng)</p>
-                <p>Giá: 500.000đ</p> 
-            </div>
-            <div class="container-item">
-                <img src="assets/img/Non_item6.png" alt="">
-                <p>Áo sơ mi KuBo(Đen)</p>
-                <p>Giá: 500.000đ</p>
-            </div>
-            <div class="container-item">
-                <img src="assets/img/Non_item7.png" alt="">
-                <p>Mũ lưỡi chai KuBo(Đen)</p>
-                <p>Giá: 200.000đ</p> 
-            </div>
-            <div class="container-item">
-                <img src="assets/img/Non_item8.png" alt="">
-                <p>Mũ lưỡi chai KuBo(Trắng)</p>
-                <p>Giá: 200.000đ</p>  
-            </div>
-        </div>
-        <div class="container-list">
-            <div class="container-item">
-                <img src="assets/img/Non_item9.png" alt="">
-                <p>Mũ lưỡi chai KuBo(Đỏ)</p>
-                <p>Giá: 200.000đ</p>  
-            </div>
-            <div class="container-item">
-                <img src="assets/img/Non_item10.png" alt="">
-                <p>Ví Non Branded(Đen)</p>
-                <p>Giá: 600.000đ</p>  
-            </div>
-            <div class="container-item">
-                <img src="assets/img/Non_item11.png" alt="">
-                <p>Ví Non Branded(Tím)</p>
-                <p>Giá: 600.000đ</p>   
-            </div>
-            <div class="container-item">
-                <img src="assets/img/Non_item12.png" alt="">
-                <p>Ví KuBo(Đen)</p>
-                <p>Giá: 200.000đ</p> 
-            </div>
+        </div> -->
+
+        <div class="product_container" id="productContainer">
+             <!-- Các sản phẩm sẽ được chèn vào đây bằng JavaScript -->
         </div>
     </div>
+    <script src="../public/js/nobrand/data_dump.js"></script>
+    <script type="module" src="../public/js/nobrand/nobrand.js"></script>
     <!-- import footer -->
     <?php include 'components/footer.php'; ?>
 </body>

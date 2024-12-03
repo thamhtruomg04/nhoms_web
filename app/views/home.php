@@ -6,7 +6,7 @@
     <title>ban quan ao</title>
     <link rel="stylesheet" href="/ecommerce/public/css/header.css">
     <link rel="stylesheet" href="/ecommerce/public/css/footer.css">
-    <link rel="stylesheet" href="/ecommerce/public/css/main.css">
+    <link rel="stylesheet" href="../public/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body> 
@@ -32,192 +32,20 @@
 
         <div class="main_content">
             <div class="main_content_header">
-                <div>
-                   Sản phẩm hot hiện nay
-                </div>
+                <a href="home"><i class="fa-solid fa-house"></i></a>
+                <p>/ Sản phẩm hot</p>
             </div>
-
-            <div class="sanpham">
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item1.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div> 
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item2.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item3.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item4.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
+            <div class="main_content_filter">
+                <p>Nổi bật | Bán chạy | Mới</p>
             </div>
-            
-            <div class="sanpham">
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item1.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div> 
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item2.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item3.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item4.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sanpham">
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item1.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div> 
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item2.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item3.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item4.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sanpham">
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item1.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div> 
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item2.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item3.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item4.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sanpham">
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item1.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div> 
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item2.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item3.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-                <div class="sanpham_container">
-                    <img class="sanpham_img" src="assets/img/item4.png" alt="">
-                    <div class="sanpham_name">Áo ba lỗ cotton</div>
-                    <div class="sanpham_options">
-                        <div><span>đ</span>100.000</div>
-                        <button>thêm giỏ hàng</button>
-                    </div>
-                </div>
-            </div>
-            
+            <div class="sanpham" id="sanpham"></div>
         </div>
         
         <!-- <div class="container__discount">
             <img src="assets/img/discount.png" alt="">
         </div> -->
     </div>
+    <script src="/ecommerce/public/js/home/data_dump.js"></script>
     <!-- import footer -->
     <?php include 'components/footer.php'; ?>
 </body>

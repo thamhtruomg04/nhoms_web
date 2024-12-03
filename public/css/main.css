@@ -1,5 +1,6 @@
 .container__container{
     width:100%;
+    background-color: #f1f0ec;
 }
 
 .container{
@@ -25,8 +26,6 @@
     width: 100%;
     margin:  auto;
 }
-
-
 
 .dot__container {
     position: absolute;
@@ -58,17 +57,34 @@
     padding: 30px 0;
 }
 
-.sanpham{
-    display: flex;
-    width: 100%;
-    padding: 0 5vw;
-    gap: 20px;
-    justify-content: space-between;
+.main_content_header a {
+    color: #868686;
 }
+
+.main_content_header {
+    margin-top: 20px;
+    display: flex;
+    padding: 10px 5vw;
+    color: #868686;
+    font-style: italic;
+}
+.main_content_filter{
+    padding: 10px 5vw;
+    color: #333;
+}
+.sanpham{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 23%); /* 4 cột */
+    padding: 5vw 5vw;
+    gap: 2.5vw;
+}
+
 
 .sanpham_img {
     width: 100%;
-    border-radius: 10px;
+    /* height: 23vw; */
+    border-radius: 3px;
 }
 
 .main_content_header{
@@ -80,18 +96,20 @@
     font-style: italic;
 }
 .sanpham_container{
-    background-color: #ececec;
+    background-color: #fff;
     border: solid 1px #ccc;
     border-radius: 3px;
-    padding: 5px 5px 15px;
+    padding: 0 0 15px;
     display: flex;
     gap: 10px;
     flex-direction: column;
-    width: 23%;
     font-size: 12px;
     color: #333;
 }
 .sanpham_name{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     padding: 0 10px;
     text-align: center;
     font-size: 14px;
@@ -99,11 +117,15 @@
 }
 .sanpham_options{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5px;
+    padding: 10px;
 }
 .sanpham_options div{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     color: rgb(255, 39, 39);
     font-weight: bold;
 }
@@ -115,10 +137,13 @@
 
 .sanpham_options button{
     font-size: 13px;
-    background-color: rgb(100, 54, 45);
+    background-color: #868686;
     border: none;
     border-radius: 2px;
-    color: #dedede;
+    color: #fff;
     padding: 8px;
     cursor: pointer;
+}
+.sanpham_options button:hover{
+    background-color: #333;
 }

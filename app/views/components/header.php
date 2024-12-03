@@ -7,56 +7,58 @@
     </div>
 
     <ul class="header_nav_list">
+        <!-- bộ sưu tập -->
         <li class="header_nav_item">
-            <a href="nobrand">BỘ SƯU TẬP</a>
+            <a href="bo_suu_tap">BỘ SƯU TẬP</a>
             <i class="fa-solid fa-chevron-down"></i>
             <ul class="header_nav_item_sub_container">
-                <li class="header__item-item"><a href="nobrand">Non Branded (Tối giản, Tiết kiện)</a></li>
-                <li class="header__item-item"><a href="Seventy.html">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
-                <li class="header__item-item"><a href="Nostyle.html">No Style (Gu nào cũng có)</a></li>
+                <li class="header__item-item"><a href="bo_suu_tap?type=nobrand">Non Branded (Tối giản, Tiết kiện)</a></li>
+                <li class="header__item-item"><a href="bo_suu_tap?type=seventy">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
+                <li class="header__item-item"><a href="bo_suu_tap?type=nostyle">No Style (Gu nào cũng có)</a></li>
+                <li class="header__item-item"><a href="bo_suu_tap?type=premium">Premium (Dáng chuẩn, Vải xịn)</a></li>
+                <li class="header__item-item"><a href="bo_suu_tap?type=cooltouch">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
             </ul>
         </li>
-        
+        <!-- áo thun -->
         <li class="header_nav_item">
             <a href="">ÁO THUN NAM NỮ</a>
             <i class="fa-solid fa-chevron-down"></i>
-            <ul class="header_nav_item_sub_container">
-                <li class="header__item-item"><a href="">Non Branded (Tối giản, Tiết kiện)</a></li>
-                <li class="header__item-item"><a href="">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
-                <li class="header__item-item"><a href="">No Style (Gu nào cũng có)</a></li>
-                <li class="header__item-item"><a href="">Premium (Dáng chuẩn, Vải xịn)</a></li>
-                <li class="header__item-item"><a href="">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
-            </ul>
+            <!-- <ul class="header_nav_item_sub_container">
+                <li class="header__item-item"><a href="nobrand">Non Branded (Tối giản, Tiết kiện)</a></li>
+                <li class="header__item-item"><a href="seventy">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
+                <li class="header__item-item"><a href="nostyle">No Style (Gu nào cũng có)</a></li>
+                <li class="header__item-item"><a href="premiup">Premium (Dáng chuẩn, Vải xịn)</a></li>
+                <li class="header__item-item"><a href="cool_touch">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
+            </ul> -->
 
         </li>
-
+        <!-- giá tốt -->
         <li class="header_nav_item">
             <a href="">GIÁ LUÔN TỐT</a>
             <i class="fa-solid fa-chevron-down"></i>
-            <ul class="header_nav_item_sub_container">
-                <li class="header__item-item"><a href="">Non Branded (Tối giản, Tiết kiện)</a></li>
-                <li class="header__item-item"><a href="">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
-                <li class="header__item-item"><a href="">No Style (Gu nào cũng có)</a></li>
-                <li class="header__item-item"><a href="">Premium (Dáng chuẩn, Vải xịn)</a></li>
-                <li class="header__item-item"><a href="">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
-            </ul>
+            <!-- <ul class="header_nav_item_sub_container">
+                <li class="header__item-item"><a href="nobrand">Non Branded (Tối giản, Tiết kiện)</a></li>
+                <li class="header__item-item"><a href="seventy">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
+                <li class="header__item-item"><a href="nostyle">No Style (Gu nào cũng có)</a></li>
+                <li class="header__item-item"><a href="premium">Premium (Dáng chuẩn, Vải xịn)</a></li>
+                <li class="header__item-item"><a href="cool_touch">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
+            </ul> -->
         </li>
-        
+        <!-- mới -->
         <li class="header_nav_item">
-            <a href="news.html">MỚI</a>
+            <a href="bo_suu_tap?type=new">MỚI</a>
             <div>
                 <i class="fa-solid fa-bars"></i>
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
-            <ul class="header_nav_item_sub_container">
-                <li class="header__item-item"><a href="">Non Branded (Tối giản, Tiết kiện)</a></li>
-                <li class="header__item-item"><a href="">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
-                <li class="header__item-item"><a href="">No Style (Gu nào cũng có)</a></li>
-                <li class="header__item-item"><a href="">Premium (Dáng chuẩn, Vải xịn)</a></li>
-                <li class="header__item-item"><a href="">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
-            </ul>
+            <!-- <ul class="header_nav_item_sub_container">
+                <li class="header__item-item"><a href="nobrand">Non Branded (Tối giản, Tiết kiện)</a></li>
+                <li class="header__item-item"><a href="seventy">Seventy Seven (Giá Tốt, Jean 277k)</a></li>
+                <li class="header__item-item"><a href="nostyle">No Style (Gu nào cũng có)</a></li>
+                <li class="header__item-item"><a href="premiup">Premium (Dáng chuẩn, Vải xịn)</a></li>
+                <li class="header__item-item"><a href="cool_touch">Cool Touch (Vải Mềm-Mịn-Mát)</a></li>
+            </ul> -->
         </li>
-
     </ul>
 
     <div class="header_link_icon">
