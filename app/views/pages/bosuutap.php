@@ -11,8 +11,8 @@
 </head>
 <body> 
     <!-- import header -->
-    <?php include 'components/header.php'; ?>
-    
+    <?php include __DIR__ . '/../components/header.php'; ?>
+
     <!-- home html --> 
     <div class="bosuutap_container">
         <div class="bosuutap_header">
@@ -40,6 +40,6 @@
     </div>
     <script type="module" src="../public/js/bosuutap/bosuutap.js"></script>
     <!-- import footer -->
-    <?php include 'components/footer.php'; ?>
+    <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
 </html>

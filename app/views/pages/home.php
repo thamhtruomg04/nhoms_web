@@ -11,7 +11,7 @@
 </head>
 <body> 
     <!-- import header -->
-    <?php include 'components/header.php'; ?>
+    <?php include __DIR__ . '/../components/header.php'; ?>
     
     <!-- home html -->
     <div class="container__container">
@@ -41,12 +41,9 @@
             <div class="sanpham" id="sanpham"></div>
         </div>
         
-        <!-- <div class="container__discount">
-            <img src="assets/img/discount.png" alt="">
-        </div> -->
     </div>
-    <script src="/ecommerce/public/js/home/data_dump.js"></script>
+    <script src="/ecommerce/public/js/home/home.js"></script>
     <!-- import footer -->
-    <?php include 'components/footer.php'; ?>
+    <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
 </html>

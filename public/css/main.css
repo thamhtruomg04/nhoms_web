@@ -54,7 +54,6 @@
     display: flex;
     flex-direction: column;
     gap:20px;
-    padding: 30px 0;
 }
 
 .main_content_header a {
@@ -65,12 +64,13 @@
     margin-top: 20px;
     display: flex;
     padding: 10px 5vw;
-    color: #868686;
+    color: #868686!important;
     font-style: italic;
 }
 .main_content_filter{
     padding: 10px 5vw;
     color: #333;
+    font-weight: 600;
 }
 .sanpham{
     display: grid;
@@ -78,6 +78,7 @@
     grid-template-columns: repeat(4, 23%); /* 4 cột */
     padding: 5vw 5vw;
     gap: 2.5vw;
+    padding-top: 0;
 }
 
 
