@@ -51,7 +51,7 @@ const homeProductData = [
     {
         "id": 9,
         "name": "Áo blazer nam",
-        "image": "assets/img/item9.png",
+        "image": "assets/img/item3.png",
         "price": "600.000",
     },
     {
@@ -93,7 +93,7 @@ const homeProductData = [
     {
         "id": 16,
         "name": "Áo phông basic nam",
-        "image": "assets/img/item16.png",
+        "image": "assets/img/item6.png",
         "price": "120.000",
     },
     {
@@ -117,13 +117,13 @@ const homeProductData = [
     {
         "id": 20,
         "name": "Áo khoác bomber",
-        "image": "assets/img/item20.png",
+        "image": "assets/img/item1.png",
         "price": "800.000",
     }
 ]
 
 function renderProducts() {
-    const sanphamElement = document.getElementById("sanpham");
+    const sanphamElement = document.querySelector("#sanpham");
     sanphamElement.innerHTML = ""; // Xóa nội dung cũ
 
     homeProductData.forEach(product => {
@@ -132,13 +132,13 @@ function renderProducts() {
                 <img class="sanpham_img" src="${product.image}" alt="${product.name}">
                 <div class="sanpham_name">${product.name}</div>
                 <div class="sanpham_options">
-                    <div><span>đ</span>${product.price}</div>
-                    <button>thêm giỏ hàng</button>
+                    <div>${product.price}<span>đ</span></div>
+                    <button>Thêm giỏ hàng</button>
                 </div>
             </div>
         `;
         sanphamElement.innerHTML += productHTML; // Thêm sản phẩm mới
     });
 }
-renderProducts()
+renderProducts();
 
